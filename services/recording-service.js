@@ -12,12 +12,12 @@ async function recordingService(ttsService, callSid) {
         .create({
           recordingChannels: 'dual'
         });
-          
+      console.log(`Recording Created: ${recording.sid}`.red);    
       console.log(`Recording Created: ${recording.sid}`.red);
     }
   } catch (err) {
     console.log(err);
   }
-}
+} 
 
 module.exports = { recordingService };
