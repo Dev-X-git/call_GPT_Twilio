@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 // You can use this function to make a.
-// test call to your application by running
+// test call to your application by running.
 // npm inbound
 async function makeInboundCall() {
   const VoiceResponse = require('twilio').twiml.VoiceResponse;
