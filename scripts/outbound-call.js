@@ -1,6 +1,6 @@
 /*
   You can use this script to place an outbound call
-  to your own mobile phone.
+  to your own mobile phone
 */
 
 require('dotenv').config();
